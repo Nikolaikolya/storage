@@ -1,0 +1,20 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "get work all browsers storage",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "dev:node": "nodemon ./dist/index.js"
+  },
+  "keywords": ["localStorage", "sessionStorage", "cookies"],
+  "author": "Nikolaikolya",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
